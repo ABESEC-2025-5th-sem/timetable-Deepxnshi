@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        function changeColor(color){
+            document.getElementById("Bulb").style.backgroundColor=color;
+            console.log(color);
+            console.log(document.getElementById("Bulb"));
+        }
+    </script>
+</head>
+<body>
+    <div id="Bulb" ></div>
+    <input type="button" value="RED" onclick="changeColor('red')">
+    <input type="button" value="GREEN" onclick="changeColor('green')">
+    <input type="button" value="BLUE" onclick="changeColor('blue')">
+    <input type="button" value="YELLOW" onclick="changeColor('yellow')">
+    <input type="button" value="ORANGE" onclick="changeColor('orange')">
+    <input type="button" value="PURPLE" onclick="changeColor('purple')">
+
+</body>
+</html>
